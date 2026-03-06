@@ -125,7 +125,7 @@ public class TestPet {
     @Feature("Pet")
     @Severity(SeverityLevel.CRITICAL)
     @Owner("Vladimir Greshilov")
-    public void testAddNewPet2(int id, String name, int status) {
+    public void testAddNewPetwithincorrectstatus(int id, String name, int status) {
         Pet pet = new Pet();
         pet.setId(id);
         pet.setName(name);
